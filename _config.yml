@@ -197,3 +197,12 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+jekyll_compose:
+  default_front_matter:
+    drafts:
+      categories:
+      tags:
+    posts:
+      categories:
+      tags:
