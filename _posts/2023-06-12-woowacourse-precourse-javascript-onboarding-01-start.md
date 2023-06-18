@@ -197,6 +197,3 @@ console.log(problem1([99, 102], [211, 212]));
 
 module.exports = problem1;
 ```
-
-> 진행한 전체 과제는 [Github](https://github.com/L2HYUNN/TMG/tree/123327cc14d2771aae5af0066945ac8323a71818/Challenge/javascript-onboarding) 에서 확인하실 수 있습니다.
-{: .prompt-tip }
