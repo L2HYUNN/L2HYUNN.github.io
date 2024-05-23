@@ -3,6 +3,7 @@ title: 남몰래 따라하는 우아한테크코스
 date: 2023-06-04 20:43 +0900
 categories: [challenge, woowacourse]
 tags: [javascript, woowacourse]
+image: /assets/img/posts/2024-05-23----3-/woowacourse.webp
 ---
 
 ## 우아한테크코스

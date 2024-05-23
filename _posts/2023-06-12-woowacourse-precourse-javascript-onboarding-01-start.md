@@ -3,6 +3,7 @@ title: 우아한테크코스 자바스크립트 온보딩 1번 풀어보기
 date: 2023-06-12 21:58 +0900
 categories: [challenge, woowacourse]
 tags: [javascript, woowacourse]
+image: /assets/img/posts/2024-05-23----3-/woowacourse.webp
 ---
 ## 문제
 

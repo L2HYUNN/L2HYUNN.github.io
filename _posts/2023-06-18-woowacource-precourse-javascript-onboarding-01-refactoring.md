@@ -3,6 +3,7 @@ title: 우아한테크코스 자바스크립트 온보딩 1번 리팩토링
 date: 2023-06-18 23:15 +0900
 categories: [challenge, woowacourse]
 tags: [javascript, woowacourse]
+image: /assets/img/posts/2024-05-23----3-/woowacourse.webp
 ---
 
 > 온보딩 1번 문제 풀이는 [이전글](https://l2hyunn.github.io/posts/woowacourse-precourse-javascript-onboarding-01-start/)에서 확인하실 수 있습니다.
