@@ -22,6 +22,7 @@ image: /assets/img/posts/2025-01-04-Next-Github-Action-CI---with-Yarn/next-build
 비교적 간단한 형태로 의존성 설치 이후 빌드 커맨드를 실행하고 있습니다.
 
 ```yml
+{% raw %}
 name: CI
 
 on:
@@ -49,6 +50,7 @@ jobs:
 
       - name: Build
         run: yarn build
+{% endraw %}
 ```
 
 해당 워크플로우를 통해 CI를 실행해보면 아래와 같은 결과를 얻을 수 있습니다.
@@ -68,6 +70,7 @@ jobs:
 [Cache action](https://github.com/actions/cache/tree/main?tab=readme-ov-file#creating-a-cache-key)을 사용한다면 이러한 아이디어를 쉽게 적용해볼 수 있습니다.
 
 ```yml
+{% raw %}
 name: CI
 
 on:
@@ -107,6 +110,7 @@ jobs:
 
       - name: Build
         run: yarn build
+{% endraw %}
 ```
 
 `Cache action`은 `path`에 속하는 파일들을 캐싱하고 이에 대응하는 고유한 캐시 키를 생성합니다. 이후 워크플로우가 다시 실행될 때 저장 된 캐시 키를 기반으로 캐시를 조회하여 일치하는 캐시가 존재하는 경우 해당 캐시를 다운로드하여 데이터를 재사용할 수 있습니다.
@@ -155,6 +159,7 @@ Next에서는 이러한 CI 시간 단축을 위한 `Caching` 방법을 제공하
 빌드 캐시를 사용할 수 있게 워크플로우를 수정하면 다음과 같이 변경할 수 있습니다.
 
 ```yml
+{% raw %}
 name: CI
 
 on:
@@ -196,6 +201,7 @@ jobs:
 
       - name: Build
         run: yarn build
+{% endraw %}
 ```
 
 이제 우리는 의존성 설치 결과 뿐 아니라 빌드 결과 또한 캐싱할 수 있게 되었습니다.
